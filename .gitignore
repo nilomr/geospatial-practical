@@ -1,0 +1,41 @@
+# Data directories
+data/raw/
+data/processed/
+
+# Climate data
+climate/
+
+# Output directory
+output/
+
+# R Environment and History
+.Rhistory
+.RData
+.Rproj.user/
+.Rprofile
+
+# renv package management directory
+renv/library/
+renv/staging/
+renv/lock/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Downloaded climate and species data
+*.rds
+*.csv
+*.tif
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.html
